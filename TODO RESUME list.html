@@ -1,0 +1,26 @@
+<input id="IN">
+<button onclick="add()">ADD</button>
+<ul id="on1">
+    <li>
+        Hello
+        <button onclick="Del(event)">Delet</button>
+    </li>
+</ul>
+
+<script>
+    
+    var ul=document.getElementById("on1")
+    var IN=document.getElementById("IN")
+    
+    function add()
+    {
+        
+        var z=document.createElement("li")
+        z.innerHTML=IN.value +"<button onclick='Del(event)'>Delet</button>"
+        ul.append(z)
+    }
+    function Del()
+    {
+        event.target.parentElement.remove()
+    }
+</script>

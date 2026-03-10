@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    color:brown;
+    text-align:center;
+    background-color:gray;
+    font-size:50px;
+
+}
+p{
+    text-align:left;
+    font-size:21px;
+    margin:5px;
+    padding:2px;
+}
+.full{
+    display:inline-block;
+}
+.fs{
+     display:inline-block;
+    
+     margin:10px;
+     border-style:solid;
+     border-color:black;
+     width:400;
+     height:350;
+}
+.Sc{
+     display:inline-block;
+     margin:10px;
+     border-style:solid;
+     border-color:black;
+    width:400;
+     height:350;
+}
+.fn{
+     display:inline-block;
+     margin:10px;
+     border-style:solid;
+     border-color:black;
+    width:400;
+     height:350;
+}
+h2{
+    margin:7px;
+    text-align:center;
+    color:white;
+    background-color:black;
+
+}
+h2:hover{
+   cursor: pointer;
+}
+button:hover{
+    cursor:pointer;
+}
